@@ -19,10 +19,15 @@ pids
 .env
 .env.test
 .env.production
+.env.local  # Thêm file môi trường local của Next.js
 
-# Build output
+# Build output (Next.js)
+.next/      # Thư mục build của Next.js
+out/        # Thư mục output tùy chọn
 dist/
 build/
+
+.next
 
 # Coverage (nếu dùng Jest/Mocha)
 coverage/
@@ -43,3 +48,5 @@ Thumbs.db
 
 # Optional eslint cache
 .eslintcache
+
+#
