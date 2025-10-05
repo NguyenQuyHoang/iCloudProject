@@ -27,6 +27,8 @@ out/        # Thư mục output tùy chọn
 dist/
 build/
 
+.next
+
 # Coverage (nếu dùng Jest/Mocha)
 coverage/
 .nyc_output/
