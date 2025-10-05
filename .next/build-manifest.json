@@ -1,32 +1,46 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-42372ed130431b0a.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
+  "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/HruN-klVV0xP0VLGktxbN/_buildManifest.js",
+    "static/HruN-klVV0xP0VLGktxbN/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "rootMainFilesTree": {},
   "pages": {
     "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/webpack-a0e0eb1aa6493073.js",
+      "static/chunks/framework-b1e5f14688f9ffe6.js",
+      "static/chunks/main-cd081aaf7f0e7eb6.js",
+      "static/chunks/pages/index-ad2ca5b7b680069e.js"
     ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-a0e0eb1aa6493073.js",
+      "static/chunks/framework-b1e5f14688f9ffe6.js",
+      "static/chunks/main-cd081aaf7f0e7eb6.js",
+      "static/chunks/pages/_app-c6e8ddb3b0788b8c.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-a0e0eb1aa6493073.js",
+      "static/chunks/framework-b1e5f14688f9ffe6.js",
+      "static/chunks/main-cd081aaf7f0e7eb6.js",
+      "static/chunks/pages/_error-cf5db1610f7a1281.js"
+    ],
+    "/test-supabase": [
+      "static/chunks/webpack-a0e0eb1aa6493073.js",
+      "static/chunks/framework-b1e5f14688f9ffe6.js",
+      "static/chunks/main-cd081aaf7f0e7eb6.js",
+      "static/chunks/170-251de9e278f85008.js",
+      "static/chunks/pages/test-supabase-771c98d43a99b155.js"
+    ],
+    "/views/products": [
+      "static/chunks/webpack-a0e0eb1aa6493073.js",
+      "static/chunks/framework-b1e5f14688f9ffe6.js",
+      "static/chunks/main-cd081aaf7f0e7eb6.js",
+      "static/chunks/pages/views/products-21654038feb94f1d.js"
     ]
   },
   "ampFirstPages": []

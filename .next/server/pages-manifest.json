@@ -1,6 +1,12 @@
 {
+  "/api/products": "pages/api/products.js",
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/api/search": "pages/api/search.js",
+  "/api/productsCart": "pages/api/productsCart.js",
+  "/": "pages/index.html",
+  "/views/products": "pages/views/products.html",
+  "/test-supabase": "pages/test-supabase.html",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }
