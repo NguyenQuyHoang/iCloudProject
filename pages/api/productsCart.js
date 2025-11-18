@@ -1,5 +1,5 @@
 // pages/api/productsCart.js
-import supabase from '../../api/config.api'; // Nhập client Supabase đã được cấu hình từ file config.api
+import supabase from '../../api/config.api';
 
 export default async function handler(req, res) {
   try {

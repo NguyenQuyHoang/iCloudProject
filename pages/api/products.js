@@ -1,8 +1,8 @@
-const { createClient } = require('@supabase/supabase-js'); // Nhập module createClient từ thư viện Supabase để kết nối database
+const { createClient } = require('@supabase/supabase-js');
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL; // Lấy URL của Supabase từ biến môi trường
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY; // Lấy key ẩn danh của Supabase từ biến môi trường
-const supabase = createClient(supabaseUrl, supabaseKey); // Khởi tạo client Supabase với URL và key để thực hiện các thao tác với database
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+const supabase = createClient(supabaseUrl, supabaseKey);
 
 export default async function handler(req, res) {
   if (req.method === 'GET') {
